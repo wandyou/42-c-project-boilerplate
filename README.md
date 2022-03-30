@@ -19,7 +19,7 @@ To add other ones, you can either add them directly after the main, like this :
 
 ```makefile
 SRCS = srcs/main.c \
-			 srcs/other_file.c
+       srcs/other_file.c
 ```
 
 Or organize them by “categories” and add those categories to the SRCS, like this :
@@ -28,5 +28,5 @@ Or organize them by “categories” and add those categories to the SRCS, like 
 OTHER_FILES = srcs/other_file.c
 
 SRCS = srcs/main.c \
-			 ${OTHER_FILES}
+       ${OTHER_FILES}
 ```
